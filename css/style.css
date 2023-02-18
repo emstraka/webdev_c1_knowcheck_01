@@ -110,6 +110,25 @@ body {
     
 }
 
+.contact-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -209,6 +228,13 @@ a:hover, a:active {
     border: 2px solid #74b44a;
 }
 
+.contact-content a {
+    color: #F1F1F1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+}
 
 
 /* Typography
